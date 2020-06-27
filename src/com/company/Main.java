@@ -10,5 +10,26 @@ public class Main {
                         "July", "August", "September",
                         "October", "November", "December"};
 
+        // don't need parentheses as length is a property of the array, not a command
+//        for (int i = 0; i < months.length; i++) {
+//            System.out.println(months[i]);
+//        }
+
+//        for (var month : months) {
+//            System.out.println(month);
+//        }
+
+//        var whileCounter = 0;
+//        while (whileCounter < months.length) {
+//            System.out.println(months[whileCounter]);
+//            whileCounter++;
+//        }
+
+        var doCounter = 0;
+        do {
+            System.out.println(months[doCounter]);
+            doCounter++;
+        } while (doCounter < months.length);
+
     }
 }
